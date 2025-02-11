@@ -1,0 +1,136 @@
+body {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+
+.nav {
+  display: flex;
+}
+
+/* applying hover effects to buttons */
+  .sign-in-button:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+  }
+  .register-button:hover {
+    background-color:  #336fc0;
+  }
+ 
+
+
+.sign-in-button,
+.register-button {
+  width: 80px;
+  padding: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+.register-button {
+  background-color: #2371df;
+  color: white;
+  
+}
+
+
+#title {
+  color: #3b7ef8;
+}
+
+#sec1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/2-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;  
+  color: white;
+}
+
+.site-discrip {
+    padding: 75px;
+    margin-left: 100px;
+}
+
+#sec1-title {
+    font-size: 50px;
+    line-height: 1;
+}
+
+.shop-now {
+  width: 95px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #2371df;
+  border-radius:5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  border: 0;
+}
+
+.shop-now:hover {
+  background-color:rgb(56, 105, 173);
+}
+
+.shop-now:active {
+  border: 1px solid white;
+
+}
+
+.section-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec2{
+  display: flex;
+  width: 80%;
+  margin: 50px 0 50px 0;
+  position: relative;
+ 
+}
+
+.sec2-img-detail {
+  position: relative;
+  height: 440px;
+  width: 25%;
+  background-color: rgb(188, 185, 185);
+  border-radius: 0px 30px 0px 30px;
+}
+
+.sec2-img {
+  background: url(./assets/fashionable-girl-posing-white-sweater-tweed-jacket-one-shoulder-grey.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 440px;
+  width: 25%;
+  border-radius: 60px 30px 45px 30px;
+  margin-right: 70px;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+
+
+.sec2-description {
+  width: 60%;
+  margin-left: 150px;
+  margin-top: 30px;
+}
