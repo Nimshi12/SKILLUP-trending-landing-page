@@ -224,3 +224,110 @@ h4 {
 .gallery-img-cap {
   color: #969696;
 }
+
+#sec4 {
+  background: linear-gradient(to bottom,rgb(232, 244, 255), #ffffff);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+.review-sec {
+  display: flex;
+  flex-direction: column; 
+  justify-content:
+  align-items: center;
+  width: 85%;
+  margin: 0px;
+}
+
+.review-hdr {
+  text-align: center;
+  width: 100%;
+  margin: 10px
+}
+
+#review-hdr-title {
+  font-size: 28px;
+  margin-bottom: 1px;
+}
+
+#review-hdr-cap {
+  color:rgb(147, 147, 147);
+  font-size: 13px;
+  margin: 0;
+}
+
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0px 0px 0px;
+}
+
+.review-item {
+  display: flex;
+  width: 320px;
+  height: 275px;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+}
+
+.top-quote {
+  position: absolute;
+  top: -13px;
+  left: 85%;
+  background: url(../assets/quote-right.png);
+  background-size: cover;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+}
+
+.bottom-quote {
+  position: absolute;
+  bottom: -13px;
+  right: 85%;
+  background: url(../assets/quote-left.png);
+  background-size: cover;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+}
+
+.client-img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+}
+
+#client-img1 {
+  background: url(../assets/profile-img-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#client-img2 {
+  background: url(../assets/profile-img-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#client-img3 {
+  background: url(../assets/profile-img-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.client-review {
+  width: 65%;
+  font-size: 14px;
+}
+
+.fa {
+  color: #fcc419;
+}
