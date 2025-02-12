@@ -51,7 +51,7 @@ header {
 
 #sec1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assets/2-1.jpg);
+    url(../assets/2-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,7 +91,6 @@ header {
 }
 
 .section-container {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,8 +99,8 @@ header {
 
 #sec2{
   display: flex;
-  width: 80%;
-  margin: 50px 0 50px 0;
+  width: 85%;
+  margin: 50px;
   position: relative;
  
 }
@@ -115,12 +114,12 @@ header {
 }
 
 .sec2-img {
-  background: url(./assets/fashionable-girl-posing-white-sweater-tweed-jacket-one-shoulder-grey.jpg);
+  background: url(../assets/fashionable-girl-posing-white-sweater-tweed-jacket-one-shoulder-grey.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 440px;
-  width: 25%;
+  width: 23%;
   border-radius: 60px 30px 45px 30px;
   margin-right: 70px;
   position: absolute;
@@ -133,4 +132,95 @@ header {
   width: 60%;
   margin-left: 150px;
   margin-top: 30px;
+}
+
+#sec3 {
+  display: flex;
+  width: 85%;
+  margin: 50px 0 50px 0;
+}
+
+.galley-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.gallery-item {
+  width: 316.8px;
+  height: 350px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+h4 {
+  color: #3198ff;
+}
+
+.gallery-item-img1 {
+  background: url(../assets/gallery-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-item-img2 {
+  background: url(../assets/gallery-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-item-img3 {
+  background: url(../assets/gallery-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-item-img4 {
+  background: url(../assets/gallery-4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-item-img5 {
+  background: url(../assets/gallery-5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-item-img6 {
+  background: url(../assets/gallery-6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-item-img7 {
+  background: url(../assets/gallery-7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-item-img8 {
+  background: url(../assets/gallery-8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+
+.gallery-img-cap {
+  color: #969696;
 }
